@@ -28,7 +28,7 @@ public class InterActorImp implements InterActor {
 
         Retrofit retrofit = ServicesApi.CreateApiClient();
         Service service = retrofit.create(Service.class);
-        Call<List<SubClasses>> call = service.DisplayAll_SubClasses(sub_stages_id, id , type);
+        Call<List<SubClasses>> call = service.DisplayAll_SubClasses(sub_stages_id);
         call.enqueue(new Callback<List<SubClasses>>() {
             @Override
             public void onResponse(Call<List<SubClasses>> call, Response<List<SubClasses>> response) {

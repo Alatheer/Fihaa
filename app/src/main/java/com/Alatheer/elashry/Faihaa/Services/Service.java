@@ -43,15 +43,11 @@ public interface Service {
     @GET("Api/HonorBoardStudent/{id_class_room}")
     Call<List<HonerModel>> HonorBoardStudent(@Path( "id_class_room") String id_class_room);
 
-    @GET("Api/SchoolStages/{id_school}/{id}/{type}")
-    Call<School_Stages1> DisplayAll_SubStages(@Path( "id_school") String id_school,
-                                              @Path( "id"  ) String id,
-                                              @Path( "type") String type);
+    @GET("Api/SchoolStages/{id_school}")
+    Call<School_Stages1> DisplayAll_SubStages(@Path( "id_school") String id_school);
 
-    @GET("Api/SchoolClassRoom/{sub_stages_id}/{id}/{type}")
-    Call<List<SubClasses>> DisplayAll_SubClasses(@Path( "sub_stages_id") String sub_stages_id,
-                                                 @Path( "id") String id,
-                                                 @Path( "type") String type);
+    @GET("Api/SchoolClassRoom/{sub_stages_id}")
+    Call<List<SubClasses>> DisplayAll_SubClasses(@Path( "sub_stages_id") String sub_stages_id);
 
     @GET("Api/EvaluationStudent/{id_class_room}")
     Call<List<Student_State_Model>> EvaluationStudent(@Path( "id_class_room") String id_class_room);

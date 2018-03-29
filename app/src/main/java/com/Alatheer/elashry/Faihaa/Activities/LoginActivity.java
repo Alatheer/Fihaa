@@ -9,6 +9,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -120,6 +121,7 @@ public class LoginActivity extends AppCompatActivity implements ViewData {
         pref.CreateSharedPref(loginModel.getStudent_code(),"student");
         Intent intent = new Intent(LoginActivity.this, Home.class);
      //   intent.putExtra("school_id",school_id);
+        Log.e("cooooode",loginModel.getStudent_code());
         intent.putExtra("student_code",loginModel.getStudent_code());
         intent.putExtra("user_type","student");
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

@@ -13,6 +13,7 @@ public class LoginModel implements Serializable{
     private String message;
 
     public LoginModel() {
+
     }
 
     public LoginModel(int success, String student_code, String message) {
