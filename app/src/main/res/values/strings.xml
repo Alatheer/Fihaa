@@ -19,7 +19,7 @@
     <string name="current_all_fees">All Fees</string>
     <string name="current_remain">Remain Fees</string>
     <string name="current_paid">Current Paid</string>
-    <string name="news">News</string>
+    <string name="news">Public News</string>
     <string name="arrive">About Us</string>
     <string name="classes">Classes</string>
     <string name="contact">Contact Us</string>
@@ -37,7 +37,8 @@
     <string name="title_activity_location">Map</string>
     <string name="school_fees">school fees</string>
     <string name="name_school">school name</string>
-    <string name="school_trans">transport fees</string>
+    <string name="school_trans">transport fees 1</string>
+    <string name="school_trans2"> transport fees 2</string>
     <string name="copyright">CopyRight</string>
 
 </resources>

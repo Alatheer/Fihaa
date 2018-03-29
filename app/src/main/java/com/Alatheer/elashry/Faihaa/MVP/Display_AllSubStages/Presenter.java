@@ -5,5 +5,5 @@ package com.Alatheer.elashry.Faihaa.MVP.Display_AllSubStages;
  */
 
 public interface Presenter {
-    void DisplayAll_SubStages(String id_school);
+    void DisplayAll_SubStages(String id_school,String id,String type);
 }

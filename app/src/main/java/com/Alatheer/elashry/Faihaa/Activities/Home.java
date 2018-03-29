@@ -113,7 +113,14 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
         classes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                presenter.DisplayAll_SubStages(school_id);
+                if (user_type.equals("parent")){
+                presenter.DisplayAll_SubStages(school_id,father_national_num,user_type);
+                }
+                else if (user_type.equals("student"))
+                {
+                 presenter.DisplayAll_SubStages(school_id,student_code,user_type);
+
+                }
             }
         });
 
@@ -162,7 +169,7 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
                     //  Toast.makeText(this, ""+student_code, Toast.LENGTH_SHORT).show();
                 }else if (user_type.equals("parent"))
                 {
-                    father_national_num = intent.getStringExtra("parent_code");
+                    father_national_num = intent.getStringExtra("code");
 
                     Log.e("pcode",""+father_national_num);
                     user_type = "parent";
@@ -204,10 +211,22 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
 
         List<Schools_Stages> schools_stagesList = schools_stages1.getArray_stages();
         Schools_Stages schools_stages = schools_stagesList.get(0);
+        if (user_type.equals("student")){
         Intent intent = new Intent(Home.this,SafofActivity.class);
         intent.putExtra("schools_stages",schools_stages);
         intent.putExtra("user_type",user_type);
+        intent.putExtra("code",student_code);
+
         startActivity(intent);
+        }
+        else if (user_type.equals("parent")){
+            Intent intent = new Intent(Home.this,SafofActivity.class);
+            intent.putExtra("schools_stages",schools_stages);
+            intent.putExtra("user_type",user_type);
+            intent.putExtra("code",father_national_num);
+
+            startActivity(intent);
+        }
 
     }
 

@@ -115,7 +115,7 @@ Context context;
                 Picasso.with(context).load(R.drawable.logo).into(target);
             }else
                 {
-                    Picasso.with(context).load(Uri.parse("http://anwaralfyaha.anwaralfyaha.com/uploads/images/"+news_model.getImage_name())).into(target);
+                    Picasso.with(context).load(Uri.parse(" "+news_model.getImage_name())).into(target);
 
                 }
 

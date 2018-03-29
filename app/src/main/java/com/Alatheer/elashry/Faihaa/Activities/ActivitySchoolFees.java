@@ -21,7 +21,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class ActivitySchoolFees extends AppCompatActivity {
-    TextView school_name,school_fees,transport_fees;
+    TextView school_name,school_fees,transport_fees,transport_fees2;
     String school_id;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +46,8 @@ public class ActivitySchoolFees extends AppCompatActivity {
                     school_name.setText(response.body().get(0).getSchool_name());
                     school_fees.setText(response.body().get(0).getTuition_fees());
                     transport_fees.setText(response.body().get(0).getTransfer_fees_1());
+                    transport_fees2.setText(response.body().get(0).getTransfer_fees_2());
+
                 }else {
                     Toast.makeText(ActivitySchoolFees.this, "No Data", Toast.LENGTH_SHORT).show();
                 }
@@ -79,7 +81,7 @@ public class ActivitySchoolFees extends AppCompatActivity {
         school_name =findViewById(R.id.txt_school_name);
         school_fees =findViewById(R.id.txt_school_fees);
         transport_fees=findViewById(R.id.txt_school_trans);
-
+        transport_fees2=findViewById(R.id.txt_school_trans2);
 
     }
 }

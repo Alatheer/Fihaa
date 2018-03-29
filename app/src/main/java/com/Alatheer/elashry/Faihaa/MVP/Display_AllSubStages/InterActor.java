@@ -16,6 +16,6 @@ public interface InterActor {
         void OnFailed(String error);
     }
 
-    void DisplayAll_SubStages(String id_school,InterActor.onCompleteListener listener, Context context);
+    void DisplayAll_SubStages(String id_school,String id,String type,InterActor.onCompleteListener listener, Context context);
 
 }

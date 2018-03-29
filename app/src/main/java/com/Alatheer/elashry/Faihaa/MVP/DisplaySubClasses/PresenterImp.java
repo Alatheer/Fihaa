@@ -23,8 +23,8 @@ public class PresenterImp implements Presenter,InterActor.onCompleteListener{
     }
 
     @Override
-    public void DisplayAllSubClasses(String id_school) {
-        interActor.DisplayAllSubClasses(id_school,this,context);
+    public void DisplayAllSubClasses(String id_school, String id , String type) {
+        interActor.DisplayAllSubClasses(id_school,id,type,this,context);
     }
 
     @Override

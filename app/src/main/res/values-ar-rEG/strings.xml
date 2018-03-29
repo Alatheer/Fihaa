@@ -5,7 +5,7 @@
     <string name="homework">الواجبات</string>
     <string name="honorboard">لوحه الشرف</string>
     <string name="table">جدول الحصص</string>
-    <string name="activities">الانشطة</string>
+    <string name="activities">الانشطة الصفيه</string>
     <string name="rate">التقييم</string>
     <string name="row_name">اسم الصف</string>
     <string name="tuition_fees">الرسوم</string>
@@ -20,7 +20,7 @@
     <string name="current_all_fees">المستحق</string>
     <string name="current_remain">الباقى</string>
     <string name="current_paid">المدفوع</string>
-    <string name="news">الاخبار</string>
+    <string name="news"> الاخبار العامه</string>
     <string name="arrive">عن المدرسه</string>
     <string name="classes">الفصول</string>
     <string name="contact">تواصل معنا</string>
@@ -37,7 +37,8 @@
     <string name="address">العنوان</string>
     <string name="school_fees">رسوم المدرسه</string>
     <string name="name_school">اسم المدرسه</string>
-    <string name="school_trans">رسوم النقل</string>
+    <string name="school_trans">مواصلات اتجاه واحد</string>
+    <string name="school_trans2">مواصلات اتجاهين</string>
     <string name="copyright">عن الشركه</string>
     <string name="title_activity_location">العنوان</string>
 

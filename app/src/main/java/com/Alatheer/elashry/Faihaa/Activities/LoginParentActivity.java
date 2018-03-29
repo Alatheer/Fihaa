@@ -121,7 +121,7 @@ public class LoginParentActivity extends AppCompatActivity implements ViewData {
             Log.e("iddddddddffffffffffff",id);
 
             Intent intent = new Intent(LoginParentActivity.this, Home.class);
-            intent.putExtra("parent_code", id);
+            intent.putExtra("code", id);
             intent.putExtra("user_type","parent");
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);

@@ -22,11 +22,11 @@ public class InterActorImp implements InterActor {
 
 
     @Override
-    public void DisplayAll_SubStages(String id_school,final onCompleteListener listener, final Context context) {
+    public void DisplayAll_SubStages(String id_school,String id,String type,final onCompleteListener listener, final Context context) {
 
         Retrofit retrofit = ServicesApi.CreateApiClient();
         Service service = retrofit.create(Service.class);
-        Call<School_Stages1> call = service.DisplayAll_SubStages("1");
+        Call<School_Stages1> call = service.DisplayAll_SubStages("1",id,type);
         call.enqueue(new Callback<School_Stages1>() {
             @Override
             public void onResponse(Call<School_Stages1> call, Response<School_Stages1> response) {

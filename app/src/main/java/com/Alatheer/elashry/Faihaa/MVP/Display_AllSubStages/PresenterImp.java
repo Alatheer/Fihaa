@@ -21,8 +21,8 @@ public class PresenterImp implements Presenter ,InterActor.onCompleteListener{
     }
 
     @Override
-    public void DisplayAll_SubStages(String id_school) {
-        interActor.DisplayAll_SubStages(id_school,this,context);
+    public void DisplayAll_SubStages(String id_school,String id,String type) {
+        interActor.DisplayAll_SubStages(id_school,id,type,this,context);
     }
 
     @Override

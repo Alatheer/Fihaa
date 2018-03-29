@@ -32,7 +32,7 @@ public class SafofActivity extends AppCompatActivity implements ViewData {
     private TextView stage_name;
     private List<SubStages> subStages;
     private Presenter presenter;
-    private String user_type;
+    private String user_type,code;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +63,7 @@ public class SafofActivity extends AppCompatActivity implements ViewData {
             {
                 school_stages = (Schools_Stages) intent.getSerializableExtra("schools_stages");
                 user_type = intent.getStringExtra("user_type");
+                code=intent.getStringExtra("code");
                 UpdateUi(school_stages);
 
             }
@@ -79,7 +80,7 @@ public class SafofActivity extends AppCompatActivity implements ViewData {
 
     public void setPos(int pos)
     {
-        presenter.DisplayAllSubClasses(subStages.get(pos).getSub_stages_id());
+        presenter.DisplayAllSubClasses(subStages.get(pos).getSub_stages_id(),code,user_type);
        // Toast.makeText(this, ""+subStages.get(pos).getSub_stages_id(), Toast.LENGTH_SHORT).show();
 
     }
