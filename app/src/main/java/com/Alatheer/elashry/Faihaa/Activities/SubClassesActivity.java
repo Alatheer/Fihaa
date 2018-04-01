@@ -5,9 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.Alatheer.elashry.Faihaa.Adapters.SubClassesAdapter;
+import com.Alatheer.elashry.Faihaa.Models.Stud_ClassModel;
 import com.Alatheer.elashry.Faihaa.Models.SubClasses;
 import com.Alatheer.elashry.Faihaa.R;
 
@@ -21,7 +23,7 @@ public class SubClassesActivity extends AppCompatActivity {
     private RecyclerView recView_SubClasses;
     private RecyclerView.LayoutManager manager;
     private RecyclerView.Adapter adapter;
-    private List<SubClasses> subClassesList;
+    private List<Stud_ClassModel> subClassesList;
     private String user_type;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,14 +39,14 @@ public class SubClassesActivity extends AppCompatActivity {
         {
             if (intent.hasExtra("subClassesList"))
             {
-                subClassesList = (List<SubClasses>) intent.getSerializableExtra("subClassesList");
+                subClassesList = (List<Stud_ClassModel>) intent.getSerializableExtra("subClassesList");
                 user_type = intent.getStringExtra("user_type");
                 UpdateUi(subClassesList);
             }
         }
     }
 
-    private void UpdateUi(List<SubClasses> subClassesList) {
+    private void UpdateUi(List<Stud_ClassModel> subClassesList) {
         adapter = new SubClassesAdapter(this,subClassesList);
         recView_SubClasses.setAdapter(adapter);
     }
@@ -63,8 +65,9 @@ public class SubClassesActivity extends AppCompatActivity {
     }
     public void setPos(int pos)
     {
-        SubClasses subClasses =subClassesList.get(pos);
+        Stud_ClassModel subClasses =subClassesList.get(pos);
         Intent intent = new Intent(this,ClassRoom.class);
+        Log.e("class_room_id",subClasses.getId_class_room());
         intent.putExtra("class_room_id",subClasses.getId_class_room());
         intent.putExtra("user_type",user_type);
         startActivity(intent);

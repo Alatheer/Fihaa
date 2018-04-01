@@ -2,11 +2,15 @@ package com.Alatheer.elashry.Faihaa.MVP.Display_AllSubStages;
 
 import android.content.Context;
 import android.util.Log;
+import android.widget.ListAdapter;
 import android.widget.Toast;
 
+import com.Alatheer.elashry.Faihaa.Models.ModelStage;
 import com.Alatheer.elashry.Faihaa.Models.School_Stages1;
 import com.Alatheer.elashry.Faihaa.Services.Service;
 import com.Alatheer.elashry.Faihaa.Services.ServicesApi;
+
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -26,14 +30,14 @@ public class InterActorImp implements InterActor {
 
         Retrofit retrofit = ServicesApi.CreateApiClient();
         Service service = retrofit.create(Service.class);
-        Call<School_Stages1> call = service.DisplayAll_SubStages("1");
-        call.enqueue(new Callback<School_Stages1>() {
+        Call<List<ModelStage>> call = service.DisplayAll_SubStages("1");
+        call.enqueue(new Callback<List<ModelStage>>() {
             @Override
-            public void onResponse(Call<School_Stages1> call, Response<School_Stages1> response) {
+            public void onResponse(Call<List<ModelStage>> call, Response<List<ModelStage>> response) {
                 if (response.isSuccessful())
                 {
-                    School_Stages1 schools_stages1 = response.body();
-                    listener.OnDisplayDataSuccess(schools_stages1);
+                    List<ModelStage> schools_stages = response.body();
+                    listener.OnDisplayDataSuccess(schools_stages);
                 }else
                     {
                         listener.OnFailed("error something went haywire");
@@ -41,7 +45,7 @@ public class InterActorImp implements InterActor {
             }
 
             @Override
-            public void onFailure(Call<School_Stages1> call, Throwable t) {
+            public void onFailure(Call<List<ModelStage>> call, Throwable t) {
                 listener.OnFailed("error check network connection ");
                 Log.e("error",t.getMessage());
                 Toast.makeText(context, ""+t.getMessage(), Toast.LENGTH_SHORT).show();

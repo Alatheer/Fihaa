@@ -1,5 +1,6 @@
 package com.Alatheer.elashry.Faihaa.MVP.DisplaySubClasses;
 
+import com.Alatheer.elashry.Faihaa.Models.Stud_ClassModel;
 import com.Alatheer.elashry.Faihaa.Models.SubClasses;
 
 import java.util.List;
@@ -10,6 +11,6 @@ import java.util.List;
 
 public interface ViewData {
 
-    void OnDisplayDataSuccess(List<SubClasses> subClasses);
+    void OnDisplayDataSuccess(List<Stud_ClassModel> subClasses);
     void OnFailed(String error);
 }

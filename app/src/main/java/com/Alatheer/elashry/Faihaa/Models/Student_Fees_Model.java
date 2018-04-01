@@ -16,9 +16,13 @@ public class Student_Fees_Model {
     private String current_all_fees;
     private String current_remain;
     private String current_paid;
+    private String transport_fee;
 
 
-    public Student_Fees_Model(String name, String school_name, String sub_stages_name, String classrooms_name, String transport_type, String payment_type, String current_all_fees, String current_remain, String current_paid) {
+    public Student_Fees_Model() {
+    }
+
+    public Student_Fees_Model(String name, String school_name, String sub_stages_name, String classrooms_name, String transport_type, String payment_type, String current_all_fees, String current_remain, String current_paid, String transport_fee) {
         this.name = name;
         this.school_name = school_name;
         this.sub_stages_name = sub_stages_name;
@@ -28,8 +32,8 @@ public class Student_Fees_Model {
         this.current_all_fees = current_all_fees;
         this.current_remain = current_remain;
         this.current_paid = current_paid;
+        this.transport_fee = transport_fee;
     }
-
 
     public String getName() {
         return name;
@@ -101,5 +105,13 @@ public class Student_Fees_Model {
 
     public void setCurrent_paid(String current_paid) {
         this.current_paid = current_paid;
+    }
+
+    public String getTransport_fee() {
+        return transport_fee;
+    }
+
+    public void setTransport_fee(String transport_fee) {
+        this.transport_fee = transport_fee;
     }
 }

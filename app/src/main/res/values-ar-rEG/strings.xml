@@ -41,6 +41,7 @@
     <string name="school_trans2">مواصلات اتجاهين</string>
     <string name="copyright">عن الشركه</string>
     <string name="title_activity_location">العنوان</string>
+    <string name="fee">رسوم النقل</string>
 
 
 </resources>

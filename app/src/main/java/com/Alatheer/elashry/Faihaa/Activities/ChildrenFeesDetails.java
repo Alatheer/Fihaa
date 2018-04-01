@@ -14,7 +14,7 @@ public class ChildrenFeesDetails extends AppCompatActivity {
 
     private ImageView back;
     private ChildrenModel childrenModel;
-    private TextView child_name,school_name,payment_type,transport_type,current_fees,current_remain,current_paid,sub_stages_name,classrooms_name;
+    private TextView child_name,school_name,payment_type,transport_type,current_fees,current_remain,current_paid,sub_stages_name,classrooms_name,transport_fee;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,7 @@ public class ChildrenFeesDetails extends AppCompatActivity {
         current_paid = findViewById(R.id.current_paid);
         sub_stages_name = findViewById(R.id.sub_stages);
         classrooms_name = findViewById(R.id.classrooms);
+        transport_fee = findViewById(R.id.transport_fee);
 
     }
 
@@ -64,5 +65,6 @@ public class ChildrenFeesDetails extends AppCompatActivity {
         current_paid.setText(childrenModel.getCurrent_paid());
         sub_stages_name.setText(childrenModel.getSub_stages_name());
         classrooms_name.setText(childrenModel.getClassrooms_name());
+        transport_fee.setText(childrenModel.getTransport_fee());
     }
 }

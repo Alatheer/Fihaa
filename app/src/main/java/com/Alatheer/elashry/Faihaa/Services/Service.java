@@ -7,10 +7,14 @@ import com.Alatheer.elashry.Faihaa.Models.ChildrenModel;
 import com.Alatheer.elashry.Faihaa.Models.HomeWorkModel;
 import com.Alatheer.elashry.Faihaa.Models.HonerModel;
 import com.Alatheer.elashry.Faihaa.Models.LoginModel;
+import com.Alatheer.elashry.Faihaa.Models.ModelStage;
+import com.Alatheer.elashry.Faihaa.Models.ModelStage_Parent;
 import com.Alatheer.elashry.Faihaa.Models.News_Model;
 import com.Alatheer.elashry.Faihaa.Models.ParentLoginModel;
 import com.Alatheer.elashry.Faihaa.Models.School_Fees_Model;
 import com.Alatheer.elashry.Faihaa.Models.School_Stages1;
+import com.Alatheer.elashry.Faihaa.Models.Schools_Stages;
+import com.Alatheer.elashry.Faihaa.Models.Stud_ClassModel;
 import com.Alatheer.elashry.Faihaa.Models.Student_Fees_Model;
 import com.Alatheer.elashry.Faihaa.Models.Student_State_Model;
 import com.Alatheer.elashry.Faihaa.Models.SubClasses;
@@ -43,8 +47,23 @@ public interface Service {
     @GET("Api/HonorBoardStudent/{id_class_room}")
     Call<List<HonerModel>> HonorBoardStudent(@Path( "id_class_room") String id_class_room);
 
-    @GET("Api/SchoolStages/{id_school}")
+    /*@GET("Api/SchoolStages/{id_school}")
     Call<School_Stages1> DisplayAll_SubStages(@Path( "id_school") String id_school);
+*/
+    //----------------------------Student_Stages-------------------------------------//
+    @GET("Api/StudentStages/{student_code}")
+    Call<List<ModelStage>> DisplayAll_SubStages(@Path( "student_code") String student_code );
+
+    //----------------------------Parent_Stages-------------------------------------//
+
+    @GET("Api/ParentStages/{father_national_num}")
+    Call<List<ModelStage_Parent>> DisplayAll_Parent_SubStages(@Path("father_national_num") String father_national_num );
+
+    //----------------------------Student_class-------------------------------------//
+
+    @GET("Api/StudentClassRoom/{stud_id}")
+    Call<List<Stud_ClassModel>> DisplayAll_Student_class(@Path("stud_id") String stud_id );
+
 
     @GET("Api/SchoolClassRoom/{sub_stages_id}")
     Call<List<SubClasses>> DisplayAll_SubClasses(@Path( "sub_stages_id") String sub_stages_id);

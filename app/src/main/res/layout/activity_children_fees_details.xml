@@ -176,6 +176,27 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/fee"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+            <TextView
+                android:id="@+id/transport_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/child_detail_bg"
+                android:textSize="14dp"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/payment_type"
                 android:textColor="@color/colorPrimary"
                 android:textSize="15sp"

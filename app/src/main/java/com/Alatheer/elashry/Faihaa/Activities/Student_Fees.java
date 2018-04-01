@@ -20,7 +20,7 @@ public class Student_Fees extends AppCompatActivity {
 
  String student_code;
 
-    TextView name,transport_type,payment_type,current_all_fees,current_remain,current_paid,sub_stages_name,classrooms_name,school_name;
+    TextView name,transport_type,payment_type,current_all_fees,current_remain,current_paid,sub_stages_name,classrooms_name,school_name,txt_transport_fees;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,7 @@ public class Student_Fees extends AppCompatActivity {
                 sub_stages_name.setText(response.body().getSub_stages_name());
                 classrooms_name.setText(response.body().getClassrooms_name());
                 school_name.setText(response.body().getSchool_name());
+                txt_transport_fees.setText(response.body().getTransport_fee());
             }
 
             @Override
@@ -87,6 +88,7 @@ public class Student_Fees extends AppCompatActivity {
         sub_stages_name =findViewById(R.id.txt_sub_stages_name );
         classrooms_name =findViewById(R.id.txt_classrooms_name );
         school_name     =findViewById(R.id.txt_school_name     );
+        txt_transport_fees =findViewById(R.id.txt_transport_fees);
 
     }
 }

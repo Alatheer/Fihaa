@@ -14,15 +14,24 @@ import android.widget.Toast;
 import com.Alatheer.elashry.Faihaa.MVP.Display_AllSubStages.Presenter;
 import com.Alatheer.elashry.Faihaa.MVP.Display_AllSubStages.PresenterImp;
 import com.Alatheer.elashry.Faihaa.MVP.Display_AllSubStages.ViewData;
+import com.Alatheer.elashry.Faihaa.Models.ModelStage;
+import com.Alatheer.elashry.Faihaa.Models.ModelStage_Parent;
 import com.Alatheer.elashry.Faihaa.Models.School_Stages1;
 import com.Alatheer.elashry.Faihaa.Models.Schools_Stages;
 import com.Alatheer.elashry.Faihaa.Preferense;
 import com.Alatheer.elashry.Faihaa.R;
+import com.Alatheer.elashry.Faihaa.Services.Service;
+import com.Alatheer.elashry.Faihaa.Services.ServicesApi;
 import com.szugyi.circlemenu.view.CircleLayout;
 
+import java.io.Serializable;
 import java.util.List;
 
 import me.anwarshahriar.calligrapher.Calligrapher;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 public class Home extends AppCompatActivity  implements ViewData, CircleLayout.OnItemClickListener, CircleLayout.OnRotationFinishedListener{
 
@@ -114,11 +123,13 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
             @Override
             public void onClick(View view) {
                 if (user_type.equals("parent")){
-                presenter.DisplayAll_SubStages(school_id,father_national_num,user_type);
+                    DisplayAll_SubStages_Parent(father_national_num);
+
                 }
                 else if (user_type.equals("student"))
                 {
                  presenter.DisplayAll_SubStages(school_id,student_code,user_type);
+
 
                 }
             }
@@ -150,6 +161,37 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
         });
     }
 
+    private void DisplayAll_SubStages_Parent(final String father_national_num) {
+        Retrofit retrofit = ServicesApi.CreateApiClient();
+        Service service = retrofit.create(Service.class);
+        Call<List<ModelStage_Parent>> call = service.DisplayAll_Parent_SubStages(father_national_num);
+        call.enqueue(new Callback<List<ModelStage_Parent>>() {
+            @Override
+            public void onResponse(Call<List<ModelStage_Parent>> call, Response<List<ModelStage_Parent>> response) {
+                if (response.isSuccessful())
+                {
+                    if (response.body().size()>0)
+                    {
+                        Intent intent = new Intent(Home.this,SafofActivity.class);
+                        intent.putExtra("schools_classes_parent", (Serializable) response.body());
+                        intent.putExtra("user_type",user_type);
+                        intent.putExtra("code",father_national_num);
+
+                        startActivity(intent);
+                    }else
+                        {
+                            Toast.makeText(Home.this, "لاتوجد بيانات لعرضها", Toast.LENGTH_SHORT).show();
+                        }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<ModelStage_Parent>> call, Throwable t) {
+
+            }
+        });
+    }
+
     private void getDataFromIntent() {
         Intent intent = getIntent();
         if (intent !=null)
@@ -169,7 +211,7 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
                     //  Toast.makeText(this, ""+student_code, Toast.LENGTH_SHORT).show();
                 }else if (user_type.equals("parent"))
                 {
-                    father_national_num = intent.getStringExtra("code");
+                    father_national_num = intent.getStringExtra("parent_code");
 
                     Log.e("pcode",""+father_national_num);
                     user_type = "parent";
@@ -207,26 +249,26 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
     }
 
     @Override
-    public void OnDisplayDataSuccess(School_Stages1 schools_stages1) {
+    public void OnDisplayDataSuccess(List<ModelStage> schools_stages) {
 
-        List<Schools_Stages> schools_stagesList = schools_stages1.getArray_stages();
-        Schools_Stages schools_stages = schools_stagesList.get(0);
+        List<ModelStage> schools_stagesList = schools_stages;
+        //ModelStage modelStage = schools_stagesList.get(0);
         if (user_type.equals("student")){
         Intent intent = new Intent(Home.this,SafofActivity.class);
-        intent.putExtra("schools_stages",schools_stages);
+        intent.putExtra("schools_classes", (Serializable) schools_stagesList);
         intent.putExtra("user_type",user_type);
         intent.putExtra("code",student_code);
 
         startActivity(intent);
         }
-        else if (user_type.equals("parent")){
+       /* else if (user_type.equals("parent")){
             Intent intent = new Intent(Home.this,SafofActivity.class);
-            intent.putExtra("schools_stages",schools_stages);
+            intent.putExtra("schools_classes", (Serializable) schools_stagesList);
             intent.putExtra("user_type",user_type);
             intent.putExtra("code",father_national_num);
 
             startActivity(intent);
-        }
+        }*/
 
     }
 

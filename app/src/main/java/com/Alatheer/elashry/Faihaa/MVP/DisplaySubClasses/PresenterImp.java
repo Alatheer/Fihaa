@@ -2,6 +2,7 @@ package com.Alatheer.elashry.Faihaa.MVP.DisplaySubClasses;
 
 import android.content.Context;
 
+import com.Alatheer.elashry.Faihaa.Models.Stud_ClassModel;
 import com.Alatheer.elashry.Faihaa.Models.SubClasses;
 
 import java.util.List;
@@ -23,12 +24,12 @@ public class PresenterImp implements Presenter,InterActor.onCompleteListener{
     }
 
     @Override
-    public void DisplayAllSubClasses(String id_school, String id , String type) {
-        interActor.DisplayAllSubClasses(id_school,id,type,this,context);
+    public void DisplayAllSubClasses(String stud_id) {
+        interActor.DisplayAllSubClasses(stud_id,this,context);
     }
 
     @Override
-    public void OnDisplayDataSuccess(List<SubClasses> subClasses) {
+    public void OnDisplayDataSuccess(List<Stud_ClassModel> subClasses) {
         if (viewData!=null)
         {
             viewData.OnDisplayDataSuccess(subClasses);

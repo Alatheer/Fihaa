@@ -2,7 +2,10 @@ package com.Alatheer.elashry.Faihaa.MVP.Display_AllSubStages;
 
 import android.content.Context;
 
+import com.Alatheer.elashry.Faihaa.Models.ModelStage;
 import com.Alatheer.elashry.Faihaa.Models.School_Stages1;
+
+import java.util.List;
 
 /**
  * Created by elashry on 3/3/2018.
@@ -26,10 +29,10 @@ public class PresenterImp implements Presenter ,InterActor.onCompleteListener{
     }
 
     @Override
-    public void OnDisplayDataSuccess(School_Stages1 schools_stages1) {
+    public void OnDisplayDataSuccess(List<ModelStage> schools_stages) {
         if (viewData!=null)
         {
-            viewData.OnDisplayDataSuccess(schools_stages1);
+            viewData.OnDisplayDataSuccess(schools_stages);
         }
     }
 

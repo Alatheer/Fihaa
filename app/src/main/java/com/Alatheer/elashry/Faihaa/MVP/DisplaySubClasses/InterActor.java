@@ -2,6 +2,7 @@ package com.Alatheer.elashry.Faihaa.MVP.DisplaySubClasses;
 
 import android.content.Context;
 
+import com.Alatheer.elashry.Faihaa.Models.Stud_ClassModel;
 import com.Alatheer.elashry.Faihaa.Models.SubClasses;
 
 import java.util.List;
@@ -14,10 +15,10 @@ public interface InterActor {
 
     interface onCompleteListener
     {
-        void OnDisplayDataSuccess(List<SubClasses> subClasses);
+        void OnDisplayDataSuccess(List<Stud_ClassModel> subClasses);
         void OnFailed(String error);
     }
 
-    void DisplayAllSubClasses(String id_school, String id , String type, InterActor.onCompleteListener listener, Context context);
+    void DisplayAllSubClasses(String stud_id, InterActor.onCompleteListener listener, Context context);
 
 }

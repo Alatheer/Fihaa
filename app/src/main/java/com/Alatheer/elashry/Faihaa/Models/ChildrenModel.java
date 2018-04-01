@@ -17,11 +17,13 @@ public class ChildrenModel implements Serializable {
     private String sub_stages_name;
     private String classrooms_name;
     private String school_name;
+    private String transport_fee;
+
 
     public ChildrenModel() {
     }
 
-    public ChildrenModel(String student_code, String name, String transport_type, String payment_type, String current_all_fees, String current_remain, String current_paid, String sub_stages_name, String classrooms_name, String school_name) {
+    public ChildrenModel(String student_code, String name, String transport_type, String payment_type, String current_all_fees, String current_remain, String current_paid, String sub_stages_name, String classrooms_name, String school_name, String transport_fee) {
         this.student_code = student_code;
         this.name = name;
         this.transport_type = transport_type;
@@ -32,7 +34,9 @@ public class ChildrenModel implements Serializable {
         this.sub_stages_name = sub_stages_name;
         this.classrooms_name = classrooms_name;
         this.school_name = school_name;
+        this.transport_fee = transport_fee;
     }
+
 
     public String getStudent_code() {
         return student_code;
@@ -112,5 +116,13 @@ public class ChildrenModel implements Serializable {
 
     public void setSchool_name(String school_name) {
         this.school_name = school_name;
+    }
+
+    public String getTransport_fee() {
+        return transport_fee;
+    }
+
+    public void setTransport_fee(String transport_fee) {
+        this.transport_fee = transport_fee;
     }
 }

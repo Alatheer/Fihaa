@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.Alatheer.elashry.Faihaa.Activities.SubClassesActivity;
+import com.Alatheer.elashry.Faihaa.Models.Stud_ClassModel;
 import com.Alatheer.elashry.Faihaa.Models.SubClasses;
 import com.Alatheer.elashry.Faihaa.R;
 
@@ -20,10 +21,10 @@ import java.util.List;
 public class SubClassesAdapter extends RecyclerView.Adapter <SubClassesAdapter.mViewHolder>{
 
     Context context;
-    List<SubClasses> subClassesList;
+    List<Stud_ClassModel> subClassesList;
     SubClassesActivity subClassesActivity;
 
-    public SubClassesAdapter(Context context, List<SubClasses> subClassesList) {
+    public SubClassesAdapter(Context context, List<Stud_ClassModel> subClassesList) {
         this.context = context;
         this.subClassesList = subClassesList;
         subClassesActivity = (SubClassesActivity) context;
@@ -37,7 +38,7 @@ public class SubClassesAdapter extends RecyclerView.Adapter <SubClassesAdapter.m
 
     @Override
     public void onBindViewHolder(final mViewHolder holder, int position) {
-        SubClasses subClasses = subClassesList.get(position);
+        Stud_ClassModel subClasses = subClassesList.get(position);
         holder.BindData(subClasses);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,9 +63,9 @@ public class SubClassesAdapter extends RecyclerView.Adapter <SubClassesAdapter.m
             sub_classes_name = itemView.findViewById(R.id.sub_classes_name);
 
         }
-        public void BindData(SubClasses subClasses)
+        public void BindData(Stud_ClassModel subClasses)
         {
-            sub_classes_name.setText(subClasses.getAr_name());
+            sub_classes_name.setText(subClasses.getClass_name());
         }
     }
 }

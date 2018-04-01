@@ -101,6 +101,7 @@ public class LoginParentActivity extends AppCompatActivity implements ViewData {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         dialog.dismiss();
         startActivity(intent);
+        Log.e("parent_coode",parentLoginModel.getFather_national_num());
         finish();
     }
 

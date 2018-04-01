@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.Alatheer.elashry.Faihaa.Activities.SafofActivity;
 import com.Alatheer.elashry.Faihaa.Models.ModelStage;
-import com.Alatheer.elashry.Faihaa.Models.SubStages;
+import com.Alatheer.elashry.Faihaa.Models.ModelStage_Parent;
 import com.Alatheer.elashry.Faihaa.R;
 
 import java.util.List;
@@ -18,13 +18,13 @@ import java.util.List;
  * Created by elashry on 3/5/2018.
  */
 
-public class SubStagesAdapter extends RecyclerView.Adapter <SubStagesAdapter.mViewHolder>{
+public class SubStages_ParentAdapter extends RecyclerView.Adapter <SubStages_ParentAdapter.mViewHolder>{
 
     Context context;
-    List<ModelStage> subStagesList;
+    List<ModelStage_Parent> subStagesList;
     SafofActivity safofActivity;
 
-    public SubStagesAdapter(Context context, List<ModelStage> subStagesList) {
+    public SubStages_ParentAdapter(Context context, List<ModelStage_Parent> subStagesList) {
         this.context = context;
         this.subStagesList = subStagesList;
         safofActivity = (SafofActivity) context;
@@ -38,7 +38,7 @@ public class SubStagesAdapter extends RecyclerView.Adapter <SubStagesAdapter.mVi
 
     @Override
     public void onBindViewHolder(final mViewHolder holder, int position) {
-        ModelStage subStages = subStagesList.get(position);
+        ModelStage_Parent subStages = subStagesList.get(position);
         holder.BindData(subStages);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,7 +64,7 @@ public class SubStagesAdapter extends RecyclerView.Adapter <SubStagesAdapter.mVi
             stage_name = itemView.findViewById(R.id.stage_name);
 
         }
-        public void BindData(ModelStage subStages)
+        public void BindData(ModelStage_Parent subStages)
         {
             stage_name.setText(subStages.getStage_name());
             sub_stage_name.setText(subStages.getSub_stage_name());
