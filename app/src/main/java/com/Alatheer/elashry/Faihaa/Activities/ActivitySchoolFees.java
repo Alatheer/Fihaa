@@ -23,6 +23,11 @@ import retrofit2.Response;
 public class ActivitySchoolFees extends AppCompatActivity {
     TextView school_name,school_fees,transport_fees,transport_fees2;
     String school_id;
+    String type;
+    private String school_name1;
+    private String tuition_fees;
+    private String transfer_fees_1;
+    private String transfer_fees_2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +35,6 @@ public class ActivitySchoolFees extends AppCompatActivity {
 
         getDataFromIntent();
         initView();
-        getDataFromServer();
     }
 
     private void getDataFromServer() {
@@ -64,11 +68,14 @@ public class ActivitySchoolFees extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent!=null)
         {
-            if (intent.hasExtra("school_id"))
-            {
-                school_id = intent.getStringExtra("school_id");
 
-            }
+                school_id = intent.getStringExtra("school_id");
+                school_name1 = intent.getStringExtra("school_name");
+                tuition_fees = intent.getStringExtra("tuition_fees");
+                transfer_fees_1 = intent.getStringExtra("transfer_fees_1");
+                transfer_fees_2 = intent.getStringExtra("transfer_fees_2");
+                type=intent.getStringExtra("type");
+
         }
 
 
@@ -82,6 +89,17 @@ public class ActivitySchoolFees extends AppCompatActivity {
         school_fees =findViewById(R.id.txt_school_fees);
         transport_fees=findViewById(R.id.txt_school_trans);
         transport_fees2=findViewById(R.id.txt_school_trans2);
+        if (type.equals("student")||type.equals("parent"))
+        {
+            school_name.setText(school_name1);
+            school_fees .setText(tuition_fees);
+            transport_fees .setText(transfer_fees_1);
+            transport_fees2.setText(transfer_fees_2);
+        }
+        else if (type.equals("visitor")){
+            getDataFromServer();
+
+        }
 
     }
 }

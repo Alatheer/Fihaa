@@ -107,4 +107,9 @@ public interface Service {
     @GET("Api/OneSchoolFees/{id_school}")
     Call<List<School_Fees_Model>> GetSchoolFeesData(@Path( "id_school") String id_school);
 
+    @GET("Api/StudentSchoolDetials/{student_code}")
+    Call<List<School_Fees_Model>> GetStudentSchoolData(@Path( "student_code") String student_code);
+
+    @GET("Api/FatherSchoolDetials/{father_national_num}")
+    Call<List<School_Fees_Model>> GetFatherSchoolDetials(@Path( "father_national_num") String father_national_num);
 }

@@ -42,6 +42,7 @@
     <string name="copyright">عن الشركه</string>
     <string name="title_activity_location">العنوان</string>
     <string name="fee">رسوم النقل</string>
+    <string name="game">اللعبه</string>
 
 
 </resources>

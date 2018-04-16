@@ -9,6 +9,9 @@ public class School_Fees_Model {
 
     private String school_name;
     private String ar_name;
+    private String phone;
+    private String fax;
+    private String email;
     private String tuition_fees;
     private String transfer_fees_1;
     private String transfer_fees_2;
@@ -33,6 +36,30 @@ public class School_Fees_Model {
 
     public void setTransfer_fees_2(String transfer_fees_2) {
         this.transfer_fees_2 = transfer_fees_2;
+    }
+
+    public String getFax() {
+        return fax;
+    }
+
+    public void setFax(String fax) {
+        this.fax = fax;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getSchool_name() {

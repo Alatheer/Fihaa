@@ -32,8 +32,6 @@ public class ActivityAboutUs extends AppCompatActivity implements View.OnClickLi
         Intent intent = getIntent();
         if (intent!=null)
         {
-            if (intent.hasExtra("school_id"))
-            {
                 school_id         =intent.getStringExtra("school_id"         );
                 user_type         =intent.getStringExtra("user_type"         );
                 phone             =intent.getStringExtra("phone"             );
@@ -42,7 +40,7 @@ public class ActivityAboutUs extends AppCompatActivity implements View.OnClickLi
                 school_google_long=intent.getDoubleExtra("school_google_long",1.1);
                 school_google_lat =intent.getDoubleExtra("school_google_lat" ,1.1);
                 school_name       =intent.getStringExtra("school_name"       );
-            }
+
         }
 
     }

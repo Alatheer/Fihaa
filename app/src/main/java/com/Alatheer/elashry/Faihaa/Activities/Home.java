@@ -3,6 +3,8 @@ package com.Alatheer.elashry.Faihaa.Activities;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -39,11 +41,11 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
     private Presenter presenter;
     private String school_id;
     private String student_code,father_national_num;
-    Button logout,student_fees,school_fees,classes,news;
+    Button logout,student_fees,school_fees,classes,news,game;
     private Preferense preferense;
     private String user_type;
     private AlertDialog.Builder builder;
-    ImageView copy;
+    FloatingActionButton fab;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -135,14 +137,27 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
             }
         });
 
+
         school_fees.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i3= new Intent(Home.this, Rsoom.class);
-                i3.putExtra("school_id",school_id);
-                startActivity(i3);
+                if (user_type.equals("student"))
+                {
+                Intent i3= new Intent(Home.this, SelectActivity.class);
+                i3.putExtra("code",student_code);
+                i3.putExtra("user_type",user_type);
+
+                    startActivity(i3);
+                }
+                else if (user_type.equals("parent")){
+                    Intent i3= new Intent(Home.this, SelectActivity.class);
+                    i3.putExtra("code",father_national_num);
+                    i3.putExtra("user_type",user_type);
+                    startActivity(i3);
+                }
             }
         });
+
         news.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -152,11 +167,21 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
             }
         });
 
-        copy.setOnClickListener(new View.OnClickListener() {
+
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i3= new Intent(Home.this, CopyRight.class);
                 startActivity(i3);
+            }
+        });
+        game.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent6=new Intent(Home.this,WebViewEmployee.class);
+                intent6.putExtra("game","game");
+
+                startActivity(intent6);
             }
         });
     }
@@ -225,13 +250,13 @@ public class Home extends AppCompatActivity  implements ViewData, CircleLayout.O
     private void initView() {
         Calligrapher calligrapher = new Calligrapher(this);
         calligrapher.setFont(this, "JannaLT-Regular.ttf", true);
-
+        fab =  findViewById(R.id.fab);
         logout=findViewById(R.id.btn_logout);
         student_fees=findViewById(R.id.btn_student_fees);
         school_fees=findViewById(R.id.btn_school_fees);
         classes=findViewById(R.id.classes);
         news=findViewById(R.id.btn_news);
-        copy=findViewById(R.id.copyRight);
+        game=findViewById(R.id.game);
 
        // circleLayout=findViewById(R.id.circle);
        // circleLayout.setOnItemClickListener(this);

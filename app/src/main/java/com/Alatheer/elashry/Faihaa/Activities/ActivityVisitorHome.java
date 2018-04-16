@@ -1,9 +1,11 @@
 package com.Alatheer.elashry.Faihaa.Activities;
 
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -14,10 +16,12 @@ import me.anwarshahriar.calligrapher.Calligrapher;
 
 public class ActivityVisitorHome extends AppCompatActivity implements View.OnClickListener{
 
-    Button news,activitiyschool,fees,about;
-    ImageView copy;
+    Button news,activitiyschool,fees,about,game;
+
     String school_id,user_type,phone,fax,email, school_name       ;
     Double school_google_long,school_google_lat;
+    FloatingActionButton fab;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,13 +58,15 @@ public class ActivityVisitorHome extends AppCompatActivity implements View.OnCli
         activitiyschool=findViewById(R.id.btn_activities);
         fees=findViewById(R.id.btn_school_fees);
         about=findViewById(R.id.btn_school_about);
-        copy=findViewById(R.id.copyRight);
+        fab =  findViewById(R.id.fab);
+        game=findViewById(R.id.game);
 
         news.setOnClickListener(this);
         activitiyschool.setOnClickListener(this);
         fees.setOnClickListener(this);
         about.setOnClickListener(this);
-        copy.setOnClickListener(this);
+        game.setOnClickListener(this);
+        fab.setOnClickListener(this);
     }
 
     @Override
@@ -84,6 +90,7 @@ public class ActivityVisitorHome extends AppCompatActivity implements View.OnCli
             case R.id.btn_school_fees:
                 Intent intent3=new Intent(ActivityVisitorHome.this,ActivitySchoolFees.class);
                 intent3.putExtra("school_id",school_id);
+                intent3.putExtra("type","visitor");
 
                 startActivity(intent3);
                 break;
@@ -101,10 +108,16 @@ public class ActivityVisitorHome extends AppCompatActivity implements View.OnCli
 
                 startActivity(intent4);
             break;
-            case R.id.copyRight:
+            case R.id.fab:
                 Intent intent5=new Intent(ActivityVisitorHome.this,CopyRight.class);
 
                 startActivity(intent5);
+                break;
+            case R.id.game:
+                Intent intent6=new Intent(ActivityVisitorHome.this,WebViewEmployee.class);
+                intent6.putExtra("game","game");
+
+                startActivity(intent6);
                 break;
         }
 
