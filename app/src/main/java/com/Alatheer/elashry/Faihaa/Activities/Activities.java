@@ -56,7 +56,6 @@ public class Activities extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<AllActivities_Model>> call, Response<List<AllActivities_Model> > response) {
 
-
                 model.clear();
                 model.addAll( response.body());
 

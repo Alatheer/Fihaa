@@ -17,7 +17,7 @@
     <string name="school_name">المدرسه</string>
     <string name="transport_type">النقل</string>
     <string name="payment_type"> نوع الدفع</string>
-    <string name="current_all_fees">المستحق</string>
+    <string name="current_all_fees"> المستحق العام الحالى</string>
     <string name="current_remain">الباقى</string>
     <string name="current_paid">المدفوع</string>
     <string name="news"> الاخبار العامه</string>
@@ -42,7 +42,7 @@
     <string name="copyright">عن الشركه</string>
     <string name="title_activity_location">العنوان</string>
     <string name="fee">رسوم النقل</string>
-    <string name="game">اللعبه</string>
+    <string name="game">ألعاب زهنيه</string>
 
 
 </resources>
