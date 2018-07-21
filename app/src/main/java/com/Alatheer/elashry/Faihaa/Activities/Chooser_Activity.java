@@ -4,19 +4,26 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.Alatheer.elashry.Faihaa.R;
+import com.romainpiel.shimmer.Shimmer;
+import com.romainpiel.shimmer.ShimmerTextView;
 
 import me.anwarshahriar.calligrapher.Calligrapher;
 
 public class Chooser_Activity extends AppCompatActivity {
     LinearLayout student,employee,visitor,parent;
     String id ,user_type;
+    ShimmerTextView textShimmer;
+    Shimmer  shimmer;
+    CardView cardView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,6 +104,18 @@ public class Chooser_Activity extends AppCompatActivity {
             }
         });
 
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(Chooser_Activity.this,Register_New_Year_Activity.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+
     }
 
     private void initView() {
@@ -106,6 +125,13 @@ public class Chooser_Activity extends AppCompatActivity {
         employee=findViewById(R.id.employee);
         visitor=findViewById(R.id.visitor);
         parent = findViewById(R.id.parent);
+        textShimmer=findViewById(R.id.textShimmer);
+        cardView=findViewById(R.id.cardView);
+
+        shimmer=new Shimmer();
+        shimmer.setDirection(Shimmer.ANIMATION_DIRECTION_RTL);
+        shimmer.setDuration(3000);
+        shimmer.start(textShimmer);
 
     }
 

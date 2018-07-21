@@ -43,6 +43,29 @@
     <string name="title_activity_location">العنوان</string>
     <string name="fee">رسوم النقل</string>
     <string name="game">ألعاب زهنيه</string>
+    <string name="nationalty">الجنسية</string>
+    <string name="gender">الجنس</string>
+    <string name="stage">المرحلة</string>
+    <string name="stud_name">إسم الطالب</string>
+    <string name="phone">رقم الجوال</string>
 
+    <string name="male">بنات</string>
 
+    <string name="female">بنين</string>
+    <string name="ident">رقم الهوية</string>
+    <string name="ch_nat">إختر الجنسية</string>
+    <string name="ch_gender">إختر النوع</string>
+    <string name="ch_stage">إختر المرحلة</string>
+    <string name="empty_name">أدخل اسم الطالب</string>
+    <string name="empty_ident">أدخل رقم الهوية</string>
+    <string name="empty_phone">أدخل رقم الجوال</string>
+    <string name="inv_phone">تحقق من رقم الجوال</string>
+    <string name="reg">إرسال البيانات</string>
+    <string name="visit">جولة في انشطه المدارس</string>
+    <string-array name="gender_array">
+        <item>@string/gender</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+
+    </string-array>
 </resources>

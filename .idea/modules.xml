@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://E:\android\projects\Fihaa\Faihaa.iml" filepath="E:\android\projects\Fihaa\Faihaa.iml" />
+      <module fileurl="file://E:/android/projects/Fihaa/Faihaa.iml" filepath="E:/android/projects/Fihaa/Faihaa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Fihaa.iml" filepath="$PROJECT_DIR$/.idea/Fihaa.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\mdares\.idea\mdares.iml" filepath="E:\mdares\.idea\mdares.iml" />
+      <module fileurl="file://E:/mdares/.idea/mdares.iml" filepath="E:/mdares/.idea/mdares.iml" />
     </modules>
   </component>
 </project>

@@ -25,7 +25,7 @@
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:supportsRtl="false"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:supportsRtl">
         <activity
@@ -128,7 +128,7 @@
         <activity android:name=".Activities.ActivitySchoolFees" />
         <activity android:name=".Activities.CopyRight" />
         <activity android:name=".Activities.SelectActivity" />
-
+        <activity android:name=".Activities.Register_New_Year_Activity"></activity>
     </application>
 
 </manifest>

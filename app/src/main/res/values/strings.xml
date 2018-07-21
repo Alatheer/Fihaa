@@ -42,5 +42,29 @@
     <string name="copyright">CopyRight</string>
     <string name="fee">TranFees</string>
     <string name="game">Mental Games</string>
+    <string name="nationalty">Nationality</string>
+    <string name="gender">Gender</string>
+    <string name="stage">Stage</string>
+    <string name="stud_name">Student name</string>
+    <string name="phone">Phone</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="ident">Identity</string>
+    <string name="ch_nat">Choose Nationality</string>
+    <string name="ch_gender">Choose Gender</string>
+    <string name="ch_stage">Choose Stage</string>
+    <string name="empty_name">Name is empty</string>
+    <string name="empty_ident">Identity is empty</string>
+    <string name="empty_phone">Phone is empty</string>
+    <string name="inv_phone">Invalid phone number</string>
+    <string name="reg">Register</string>
+    <string name="visit">Skip</string>
+
+    <string-array name="gender_array">
+        <item>@string/gender</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+
+    </string-array>
 
 </resources>
