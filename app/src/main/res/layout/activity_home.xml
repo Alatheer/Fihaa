@@ -1,216 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/back1"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:background="@drawable/back1">
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
 
-    >
-<android.support.v7.widget.Toolbar
-    android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:background="@color/colorPrimary"
-    >
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="22sp"
-        android:text="@string/app_name"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
 
-    <Button
-        android:id="@+id/game"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/game"
-        android:textColor="@color/colorPrimary"
-        android:layout_gravity="right"
-        android:gravity="center"
-        android:background="@color/white"
-        android:layout_margin="5dp"
+            >
 
- />
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary">
 
-    </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
 
-</android.support.v7.widget.Toolbar>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="180dp"
-      android:orientation="horizontal">
-      <Button
-          android:id="@+id/btn_news"
-          android:layout_width="0dp"
-          android:layout_height="150dp"
-          android:layout_weight="1"
-          android:drawableBottom="@drawable/newspaper"
-          android:background="@drawable/btn1"
-          android:layout_margin="10dp"
-          android:textColor="@color/white"
-          android:textSize="16sp"
-          android:paddingBottom="10dp"
-          android:text="@string/news"/>
-      <Button
-          android:id="@+id/btn_school_fees"
+                    <Button
+                        android:id="@+id/game"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="5dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="@string/game"
+                        android:textColor="@color/colorPrimary"
 
-          android:layout_width="0dp"
-          android:layout_height="150dp"
-          android:layout_weight="1"
-          android:drawableBottom="@drawable/map"
-          android:background="@drawable/btn1"
-          android:layout_margin="10dp"
-          android:textColor="@color/white"
-          android:textSize="16sp"
-          android:paddingBottom="10dp"
+                        />
 
-          android:text="@string/arrive"/>
+                </LinearLayout>
 
-  </LinearLayout>
+            </android.support.v7.widget.Toolbar>
 
-    <Button
-        android:id="@+id/classes"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
 
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
+                <Button
+                    android:id="@+id/btn_news"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn1"
+                    android:drawableBottom="@drawable/newspaper"
+                    android:paddingBottom="10dp"
+                    android:text="@string/news"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-        android:drawableLeft="@drawable/blackboard"
-        android:background="@drawable/btn1"
-        android:layout_margin="10dp"
-        android:textColor="@color/white"
-        android:textSize="17sp"
-        android:drawablePadding="30dp"
-        android:paddingLeft="10dp"
-        android:text="@string/classes"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/btn_student_fees"
+                <Button
+                    android:id="@+id/btn_school_fees"
 
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_weight="1"
-            android:drawableBottom="@drawable/coins"
-            android:background="@drawable/btn1"
-            android:layout_margin="10dp"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn1"
+                    android:drawableBottom="@drawable/map"
+                    android:paddingBottom="10dp"
+                    android:text="@string/arrive"
+                    android:textColor="@color/white"
 
-            android:text="@string/student_fees"/>
-        <Button
-            android:id="@+id/btn_logout"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_weight="1"
-            android:drawableBottom="@drawable/exit"
-            android:background="@drawable/btn1"
-            android:layout_margin="10dp"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:paddingBottom="10dp"
+                    android:textSize="16sp" />
 
-            android:text="@string/logout"/>
+            </LinearLayout>
 
-    </LinearLayout>
+            <Button
+                android:id="@+id/classes"
 
-<!--
-    <com.szugyi.circlemenu.view.CircleLayout
-        android:id="@+id/circle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        app:isRotating="false"
-        app:radius="110dp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icon"
-            android:id="@+id/absent"
-            android:src="@drawable/icon10"
-            />
+                android:layout_margin="10dp"
+                android:background="@drawable/btn1"
+                android:drawableLeft="@drawable/blackboard"
+                android:drawablePadding="30dp"
+                android:paddingLeft="10dp"
+                android:text="@string/classes"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icon"
-            android:id="@+id/homework"
-            android:src="@drawable/work"
-            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icon"
-            android:id="@+id/activity"
-            android:src="@drawable/icon3"
+                <Button
+                    android:id="@+id/btn_student_fees"
 
-            />
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn1"
+                    android:drawableBottom="@drawable/coins"
+                    android:paddingBottom="10dp"
+                    android:text="@string/student_fees"
+                    android:textColor="@color/white"
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icon"
-            android:id="@+id/news"
-            android:src="@drawable/icon4"
+                    android:textSize="16sp" />
 
-            />
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn1"
+                    android:drawableBottom="@drawable/exit"
+                    android:paddingBottom="10dp"
+                    android:text="@string/logout"
+                    android:textColor="@color/white"
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icon"
-            android:id="@+id/table"
-            android:src="@drawable/icon5"
+                    android:textSize="16sp" />
 
-            />
+            </LinearLayout>
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icone"
-            android:id="@+id/arrive"
-            android:src="@drawable/icon6"
+            <!--
+                <com.szugyi.circlemenu.view.CircleLayout
+                    android:id="@+id/circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:isRotating="false"
+                    app:radius="110dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
 
-            />
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icon"
+                        android:id="@+id/absent"
+                        android:src="@drawable/icon10"
+                        />
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icone"
-            android:id="@+id/sharf"
-            android:src="@drawable/icon7"
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icon"
+                        android:id="@+id/homework"
+                        android:src="@drawable/work"
+                        />
 
-            />
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icon"
+                        android:id="@+id/activity"
+                        android:src="@drawable/icon3"
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icone"
-            android:id="@+id/rsoom"
-            android:src="@drawable/icon8"
+                        />
 
-            />
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icon"
+                        android:id="@+id/news"
+                        android:src="@drawable/icon4"
 
-        <com.szugyi.circlemenu.view.CircleImageView
-            style="@style/icone"
-            android:id="@+id/state"
-            android:src="@drawable/icon9"
+                        />
 
-            />
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icon"
+                        android:id="@+id/table"
+                        android:src="@drawable/icon5"
 
-    </com.szugyi.circlemenu.view.CircleLayout>
--->
+                        />
+
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icone"
+                        android:id="@+id/arrive"
+                        android:src="@drawable/icon6"
+
+                        />
+
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icone"
+                        android:id="@+id/sharf"
+                        android:src="@drawable/icon7"
+
+                        />
+
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icone"
+                        android:id="@+id/rsoom"
+                        android:src="@drawable/icon8"
+
+                        />
+
+                    <com.szugyi.circlemenu.view.CircleImageView
+                        style="@style/icone"
+                        android:id="@+id/state"
+                        android:src="@drawable/icon9"
+
+                        />
+
+                </com.szugyi.circlemenu.view.CircleLayout>
+            -->
 
 
+        </LinearLayout>
 
-
-</LinearLayout>
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="56dp"

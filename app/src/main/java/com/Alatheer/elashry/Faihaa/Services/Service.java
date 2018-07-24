@@ -3,14 +3,18 @@ package com.Alatheer.elashry.Faihaa.Services;
 import com.Alatheer.elashry.Faihaa.Models.AbsenceModel;
 import com.Alatheer.elashry.Faihaa.Models.AllActivities_Model;
 import com.Alatheer.elashry.Faihaa.Models.AllSchoolModel;
+import com.Alatheer.elashry.Faihaa.Models.AllStagesModel;
+import com.Alatheer.elashry.Faihaa.Models.CheckRegister;
 import com.Alatheer.elashry.Faihaa.Models.ChildrenModel;
 import com.Alatheer.elashry.Faihaa.Models.HomeWorkModel;
 import com.Alatheer.elashry.Faihaa.Models.HonerModel;
 import com.Alatheer.elashry.Faihaa.Models.LoginModel;
 import com.Alatheer.elashry.Faihaa.Models.ModelStage;
 import com.Alatheer.elashry.Faihaa.Models.ModelStage_Parent;
+import com.Alatheer.elashry.Faihaa.Models.NationalityModel;
 import com.Alatheer.elashry.Faihaa.Models.News_Model;
 import com.Alatheer.elashry.Faihaa.Models.ParentLoginModel;
+import com.Alatheer.elashry.Faihaa.Models.ResponseModel;
 import com.Alatheer.elashry.Faihaa.Models.School_Fees_Model;
 import com.Alatheer.elashry.Faihaa.Models.School_Stages1;
 import com.Alatheer.elashry.Faihaa.Models.Schools_Stages;
@@ -112,4 +116,22 @@ public interface Service {
 
     @GET("Api/FatherSchoolDetials/{father_national_num}")
     Call<List<School_Fees_Model>> GetFatherSchoolDetials(@Path( "father_national_num") String father_national_num);
+
+    @GET("Api/OnRegestration")
+    Call<CheckRegister> checkRegistration();
+
+    @GET("Api/AllStages")
+    Call<List<AllStagesModel>> getStagesForRegister();
+
+    @GET("Api/AllNationality")
+    Call<List<NationalityModel>> getNationality();
+    @FormUrlEncoded
+    @POST("Api/Regestration")
+    Call<ResponseModel> Register(@Field("student_name") String student_name,
+                                 @Field("student_gender") String student_gender,
+                                 @Field("main_stage_id_fk") String main_stage_id_fk,
+                                 @Field("nationality_id_fk") String nationality_id_fk,
+                                 @Field("national_id_num") String national_id_num,
+                                 @Field("student_phone") String student_phone
+                                 );
 }

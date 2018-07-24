@@ -22,7 +22,10 @@
         app:contentPadding="10dp"
         app:cardCornerRadius="10dp"
         android:layout_marginTop="5dp"
-        app:cardBackgroundColor="@color/white">
+        app:cardBackgroundColor="@color/white"
+        android:visibility="invisible"
+
+        >
 
         <com.romainpiel.shimmer.ShimmerTextView
             android:id="@+id/textShimmer"

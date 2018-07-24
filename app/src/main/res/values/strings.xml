@@ -59,6 +59,12 @@
     <string name="inv_phone">Invalid phone number</string>
     <string name="reg">Register</string>
     <string name="visit">Skip</string>
+    <string name="nat">Nationality</string>
+    <string name="stag">Stages</string>
+    <string name="rege">Registering...</string>
+    <string name="success_regester">Successfully register</string>
+    <string name="error_try_later">Error try again later</string>
+    <string name="ok">OK</string>
 
     <string-array name="gender_array">
         <item>@string/gender</item>

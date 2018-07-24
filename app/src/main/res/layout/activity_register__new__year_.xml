@@ -218,7 +218,7 @@
                     android:paddingLeft="10dp"
                     android:hint="@string/ident"
                     android:singleLine="true"
-
+                    android:inputType="number"
                     />
 
             </LinearLayout>

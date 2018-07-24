@@ -11,12 +11,24 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.Alatheer.elashry.Faihaa.Models.AllStagesModel;
+import com.Alatheer.elashry.Faihaa.Models.CheckRegister;
+import com.Alatheer.elashry.Faihaa.Models.NationalityModel;
 import com.Alatheer.elashry.Faihaa.R;
+import com.Alatheer.elashry.Faihaa.Services.Service;
+import com.Alatheer.elashry.Faihaa.Services.ServicesApi;
 import com.romainpiel.shimmer.Shimmer;
 import com.romainpiel.shimmer.ShimmerTextView;
 
+import java.util.List;
+
 import me.anwarshahriar.calligrapher.Calligrapher;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 public class Chooser_Activity extends AppCompatActivity {
     LinearLayout student,employee,visitor,parent;
@@ -133,6 +145,37 @@ public class Chooser_Activity extends AppCompatActivity {
         shimmer.setDuration(3000);
         shimmer.start(textShimmer);
 
+
+        CheckRegistration_Open();
+
     }
 
- }
+    private void CheckRegistration_Open() {
+        Retrofit retrofit = ServicesApi.CreateApiClient();
+        retrofit.create(Service.class).checkRegistration()
+                .enqueue(new Callback<CheckRegister>() {
+                    @Override
+                    public void onResponse(Call<CheckRegister> call, Response<CheckRegister> response) {
+                        if (response.isSuccessful())
+                        {
+                            if (response.body().getRegester_state()==0)
+                            {
+                                cardView.setVisibility(View.INVISIBLE);
+                            }else if (response.body().getRegester_state()==1)
+                            {
+                                cardView.setVisibility(View.VISIBLE);
+
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<CheckRegister> call, Throwable t) {
+                        Toast.makeText(Chooser_Activity.this, R.string.something_error, Toast.LENGTH_LONG).show();
+                    }
+                });
+    }
+
+
+
+}
