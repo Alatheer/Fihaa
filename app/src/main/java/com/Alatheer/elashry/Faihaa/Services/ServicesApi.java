@@ -1,5 +1,7 @@
 package com.Alatheer.elashry.Faihaa.Services;
 
+import android.widget.Toast;
+
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -13,12 +15,12 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ServicesApi {
 
     public static Retrofit CreateApiClient()
-    {
-        OkHttpClient client = new OkHttpClient.Builder()
-                .connectTimeout(1, TimeUnit.MINUTES)
-                .writeTimeout(20,TimeUnit.SECONDS)
-                .readTimeout(20,TimeUnit.SECONDS)
-                .retryOnConnectionFailure(true)
+        {
+            OkHttpClient client = new OkHttpClient.Builder()
+                    .connectTimeout(1, TimeUnit.MINUTES)
+                    .writeTimeout(20,TimeUnit.SECONDS)
+                    .readTimeout(20,TimeUnit.SECONDS)
+                    .retryOnConnectionFailure(true)
                 .build();
        /* Gson gson = new GsonBuilder()
                 .setLenient()
@@ -31,4 +33,5 @@ public class ServicesApi {
                 .build();
         return retrofit;
     }
+
 }

@@ -12,6 +12,8 @@ import android.widget.TextView;
 import com.Alatheer.elashry.Faihaa.Models.AbsenceModel;
 import com.Alatheer.elashry.Faihaa.Models.HomeWorkModel;
 import com.Alatheer.elashry.Faihaa.R;
+import com.github.chrisbanes.photoview.PhotoView;
+import com.github.chrisbanes.photoview.PhotoViewAttacher;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -54,7 +56,8 @@ public class HomeWorkAdapter extends RecyclerView.Adapter<HomeWorkAdapter.Holder
     }
 
     class Holder extends RecyclerView.ViewHolder{
-        ImageView homework;
+        PhotoView homework;
+
 
         public Holder(View itemView) {
             super(itemView);

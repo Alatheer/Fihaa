@@ -35,7 +35,7 @@
             android:name=".Activities.NewsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.DescActivity"
+            android:name=".Activities.ActivitiesDetails"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity

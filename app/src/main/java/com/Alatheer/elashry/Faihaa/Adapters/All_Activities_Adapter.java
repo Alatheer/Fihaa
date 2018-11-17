@@ -8,10 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.Alatheer.elashry.Faihaa.Activities.DescActivity;
+import com.Alatheer.elashry.Faihaa.Activities.ActivitiesDetails;
 import com.Alatheer.elashry.Faihaa.Models.AllActivities_Model;
 import com.Alatheer.elashry.Faihaa.R;
 import com.squareup.picasso.Picasso;
@@ -58,7 +57,7 @@ public class All_Activities_Adapter extends RecyclerView.Adapter<All_Activities_
             @Override
             public void onClick(View view) {
                 AllActivities_Model allActivities_model = actiitiesList.get(holder.getAdapterPosition());
-                Intent i = new Intent(context,DescActivity.class);
+                Intent i = new Intent(context,ActivitiesDetails.class);
                 i.putExtra("activities_details",allActivities_model);
                 context.startActivity(i);
             }

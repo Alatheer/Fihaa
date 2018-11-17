@@ -78,10 +78,12 @@
                     android:textSize="14sp"
 
                     />
-                <ImageView
+                <com.github.chrisbanes.photoview.PhotoView
                     android:id="@+id/news_img"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp" />
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    />
                 <TextView
                     android:id="@+id/news_title"
                     android:layout_width="wrap_content"

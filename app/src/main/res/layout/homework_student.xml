@@ -9,10 +9,12 @@
 
     >
 
-       <ImageView
+       <com.github.chrisbanes.photoview.PhotoView
            android:layout_width="match_parent"
            android:layout_height="200dp"
            android:id="@+id/img_homework"
+           android:scaleType="fitXY"
+
            />
 
 

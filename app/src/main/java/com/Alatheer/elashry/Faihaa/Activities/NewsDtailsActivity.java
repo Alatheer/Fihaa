@@ -13,12 +13,14 @@ import android.widget.TextView;
 
 import com.Alatheer.elashry.Faihaa.Models.News_Model;
 import com.Alatheer.elashry.Faihaa.R;
+import com.github.chrisbanes.photoview.PhotoView;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
 public class NewsDtailsActivity extends AppCompatActivity {
 
-    private ImageView back,news_img;
+    private ImageView back;
+    private PhotoView news_img;
     private TextView school_name,news_date,news_title,news_content;
     private Target target;
     @Override

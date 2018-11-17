@@ -10,13 +10,15 @@ import android.widget.TextView;
 
 import com.Alatheer.elashry.Faihaa.Models.AllActivities_Model;
 import com.Alatheer.elashry.Faihaa.R;
+import com.github.chrisbanes.photoview.PhotoView;
 import com.squareup.picasso.Picasso;
 
 import me.anwarshahriar.calligrapher.Calligrapher;
 
-public class DescActivity extends AppCompatActivity {
+public class ActivitiesDetails extends AppCompatActivity {
     private TextView act_title,act_content,act_school_name,act_date,act_class_subStage;
-    private ImageView act_img,back;
+    private ImageView back;
+    private PhotoView act_img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

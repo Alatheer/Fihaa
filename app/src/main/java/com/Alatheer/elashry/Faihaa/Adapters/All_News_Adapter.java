@@ -1,7 +1,6 @@
 package com.Alatheer.elashry.Faihaa.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -11,11 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-import com.Alatheer.elashry.Faihaa.Activities.DescActivity;
 import com.Alatheer.elashry.Faihaa.Activities.NewsActivity;
 import com.Alatheer.elashry.Faihaa.Models.News_Model;
 import com.Alatheer.elashry.Faihaa.R;
