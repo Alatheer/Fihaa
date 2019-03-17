@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back1"
-    tools:context="com.Alatheer.elashry.Faihaa.Activities.Register_New_Year_Activity">
+    tools:context="com.Alatheer.alatheer.schooles.Activities.Register_New_Year_Activity">
 
 
     <android.support.design.widget.AppBarLayout

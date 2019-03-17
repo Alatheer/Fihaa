@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back1"
-    tools:context="com.Alatheer.elashry.Faihaa.Activities.Rsoom">
+    tools:context="com.Alatheer.alatheer.schooles.Activities.Rsoom">
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/sr"
         android:layout_width="match_parent"

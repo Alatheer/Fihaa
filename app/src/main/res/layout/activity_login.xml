@@ -12,7 +12,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.Alatheer.elashry.Faihaa.Activities.LoginActivity"
+    tools:context="com.Alatheer.alatheer.schooles.Activities.LoginActivity"
     >
     <ImageView
         android:id="@+id/logo"

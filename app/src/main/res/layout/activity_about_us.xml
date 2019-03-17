@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/back1"
-    tools:context="com.Alatheer.elashry.Faihaa.Activities.ActivityAboutUs">
+    tools:context="com.Alatheer.alatheer.schooles.Activities.ActivityAboutUs">
 
 
         <Button

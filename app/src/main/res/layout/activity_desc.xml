@@ -14,7 +14,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.Alatheer.elashry.Faihaa.Activities.ChildrenFeesDetails"
+        tools:context="com.Alatheer.alatheer.schooles.Activities.ChildrenFeesDetails"
         android:orientation="vertical"
         >
 

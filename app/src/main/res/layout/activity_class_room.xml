@@ -6,7 +6,7 @@
     android:background="@drawable/back1"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical"    tools:context="com.Alatheer.elashry.Faihaa.Activities.ClassRoom">
+    android:orientation="vertical"    tools:context="com.Alatheer.alatheer.schooles.Activities.ClassRoom">
 
 <LinearLayout
     android:layout_width="match_parent"
