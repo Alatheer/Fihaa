@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/back1"
-    tools:context="com.Alatheer.alatheer.schooles.Activities.ActivitySchoolFees">
+    tools:context="com.Alatheer.alatheer.schoole.Activities.ActivitySchoolFees">
 
     <android.support.v7.widget.CardView
         android:layout_marginTop="30dp"

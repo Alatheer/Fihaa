@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.Alatheer.alatheer.schooles">
+    package="com.Alatheer.alatheer.schoole">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -29,23 +29,23 @@
         android:theme="@style/AppTheme"
         tools:replace="android:supportsRtl">
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Splash"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Splash"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.NewsActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.NewsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.ActivitiesDetails"
+            android:name="com.Alatheer.alatheer.schoole.Activities.ActivitiesDetails"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.SafofActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.SafofActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.MainActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Chooser_Activity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Chooser_Activity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,57 +54,57 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.AllSchools"
+            android:name="com.Alatheer.alatheer.schoole.Activities.AllSchools"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.LoginActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Home"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Home"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Student_State"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Student_State"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.SubClassesActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.SubClassesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.ClassRoom"
+            android:name="com.Alatheer.alatheer.schoole.Activities.ClassRoom"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.HonorBoardStudent"
+            android:name="com.Alatheer.alatheer.schoole.Activities.HonorBoardStudent"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Activities"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Activities"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Rsoom"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Rsoom"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.Student_Fees"
+            android:name="com.Alatheer.alatheer.schoole.Activities.Student_Fees"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.WebViewEmployee"
+            android:name="com.Alatheer.alatheer.schoole.Activities.WebViewEmployee"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.LoginParentActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.LoginParentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.ChildrenActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.ChildrenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.ChildrenFeesDetails"
+            android:name="com.Alatheer.alatheer.schoole.Activities.ChildrenFeesDetails"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.NewsDtailsActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.NewsDtailsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.ActivityApsent" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.ActivityHomeWork"  android:screenOrientation="landscape" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.ActivityTimeTableStudent" android:screenOrientation="landscape"/>
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.ActivityApsent" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.ActivityHomeWork"  android:screenOrientation="landscape" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.ActivityTimeTableStudent" android:screenOrientation="landscape"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -118,17 +118,17 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.LocationActivity"
+            android:name="com.Alatheer.alatheer.schoole.Activities.LocationActivity"
             android:label="@string/title_activity_location" />
         <activity
-            android:name="com.Alatheer.alatheer.schooles.Activities.ActivityVisitorHome"
+            android:name="com.Alatheer.alatheer.schoole.Activities.ActivityVisitorHome"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.SchoolActivity" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.ActivityAboutUs" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.ActivitySchoolFees" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.CopyRight" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.SelectActivity" />
-        <activity android:name="com.Alatheer.alatheer.schooles.Activities.Register_New_Year_Activity"></activity>
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.SchoolActivity" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.ActivityAboutUs" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.ActivitySchoolFees" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.CopyRight" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.SelectActivity" />
+        <activity android:name="com.Alatheer.alatheer.schoole.Activities.Register_New_Year_Activity"></activity>
     </application>
 
 </manifest>

@@ -1,9 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    signingConfigs {
+        release {
+            keyAlias 'key0'
+            keyPassword '01010294881'
+            storeFile file('E:/androidNewEnd/ALatheer/Fihaa/fihaa_endd.jks')
+            storePassword '01010294881'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.Alatheer.alatheer.schooles"
+        applicationId "com.Alatheer.alatheer.schoole"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 10
