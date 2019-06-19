@@ -6,132 +6,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d2bcd8-b0a2-442a-a3e5-a55fc9bed65a" name="Default Changelist" comment="asmaa">
+    <list default="true" id="19d2bcd8-b0a2-442a-a3e5-a55fc9bed65a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/androidTest/java/com/Alatheer/alatheer/schooles/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/debug/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/debug/res/values/google_maps_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Activities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Activities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivitiesDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivitiesDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivityAboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivityAboutUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivityApsent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivityApsent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivityHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivityHomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivitySchoolFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivitySchoolFees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivityTimeTableStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ActivityVisitorHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivityVisitorHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/AllSchools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/AllSchools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ChildrenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ChildrenActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ChildrenFeesDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ChildrenFeesDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Chooser_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Chooser_Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/ClassRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ClassRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/CopyRight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/HonorBoardStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/HonorBoardStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/LocationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/LocationActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/LoginParentActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/NewsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/NewsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/NewsDtailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/NewsDtailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Register_New_Year_Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Rsoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Rsoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/SafofActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/SafofActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/SchoolActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/SchoolActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/SelectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/SelectActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Splash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Student_Fees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Student_Fees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/Student_State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/Student_State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/SubClassesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/SubClassesActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Activities/WebViewEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/WebViewEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/AbsenceStudentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/AbsenceStudentAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/AllSchools_Adapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/AllSchools_Adapters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/All_Activities_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/All_Activities_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/All_News_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/All_News_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/Children_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/Children_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/Fees_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/Fees_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/HomeWorkAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/HomeWorkAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/HonorBoardStudentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/HonorBoardStudentAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/StudentStateAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/SubClassesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/SubClassesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/SubStagesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/SubStagesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/SubStages_ParentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Adapters/SubStages_ParentAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Adapters/TimeTableAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplayAllSchools_MVP/InterActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplayAllSchools_MVP/InterActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplayAllSchools_MVP/InterActorImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplayAllSchools_MVP/InterActorImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplayAllSchools_MVP/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplayAllSchools_MVP/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplayAllSchools_MVP/PresenterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplayAllSchools_MVP/PresenterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplayAllSchools_MVP/ViewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplayAllSchools_MVP/ViewData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplaySubClasses/InterActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplaySubClasses/InterActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplaySubClasses/InterActorImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplaySubClasses/InterActorImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplaySubClasses/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplaySubClasses/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplaySubClasses/PresenterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplaySubClasses/PresenterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/DisplaySubClasses/ViewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/DisplaySubClasses/ViewData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/Display_AllSubStages/InterActor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/Display_AllSubStages/InterActorImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/Display_AllSubStages/InterActorImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/Display_AllSubStages/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/Display_AllSubStages/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/Display_AllSubStages/PresenterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/Display_AllSubStages/PresenterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/Display_AllSubStages/ViewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/Display_AllSubStages/ViewData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/LoginMVP/InterActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/LoginMVP/InterActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/LoginMVP/InterActorImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/LoginMVP/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/LoginMVP/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/LoginMVP/PresenterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/LoginMVP/PresenterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/LoginMVP/ViewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/LoginMVP/ViewData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/ParentLogin/InterActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/ParentLogin/InterActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/ParentLogin/InterActorImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/ParentLogin/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/ParentLogin/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/ParentLogin/PresenterImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/MVP/ParentLogin/ViewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/MVP/ParentLogin/ViewData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/AbsenceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/AbsenceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/AllActivities_Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/AllActivities_Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/AllSchoolModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/AllSchoolModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/AllStagesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/AllStagesModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/ArrayNewsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/ArrayNewsItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/CheckRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/ChildrenModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/HomeWorkModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/HomeWorkModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/HonerModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/LoginModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/ModelStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/ModelStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/ModelStage_Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/ModelStage_Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/NationalityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/NationalityModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/News_Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/ParentLoginModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/ResponseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/School_Fees_Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/School_Fees_Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/School_Stages1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/School_Stages1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/Schools_Stages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/Schools_Stages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/Stud_ClassModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/Stud_ClassModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/Student_Fees_Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/Student_Fees_Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/Student_State_Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/Student_State_Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/SubClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/SubClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/SubStages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/SubStages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Models/TimeTableStudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Models/TimeTableStudentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Preferense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Services/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Services/ServicesApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schooles/Services/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Services/Tags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_all_schools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_all_schools.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_children.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_children.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_children_fees_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_children_fees_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_class_room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_class_room.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_desc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_desc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_location.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login_parent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login_parent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_news_dtails.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_news_dtails.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register__new__year_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register__new__year_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_rsoom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_rsoom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_safof.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_safof.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_school_fees.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_school_fees.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_select.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_select.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_student__fees.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_student__fees.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_student_state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_student_state.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sub_classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sub_classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_web_view_employee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_web_view_employee.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Alatheer/alatheer/schooles/ExampleUnitTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,19 +58,20 @@
     <session id="-1242223090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="11" />
-          <entry key="java" value="19" />
+          <entry key="java" value="20" />
           <entry key="png" value="7" />
           <entry key="pro" value="1" />
           <entry key="properties" value="3" />
@@ -204,7 +82,7 @@
         <counts>
           <entry key="Groovy" value="11" />
           <entry key="Image" value="7" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="20" />
           <entry key="ProGuard File" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="26" />
@@ -240,11 +118,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+            <state relative-caret-position="402">
+              <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivitiesDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -344,43 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="schoole" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -486,8 +336,174 @@
           </expand>
           <select />
         </subPane>
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="renderscript_source_output_dir" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buildConfig" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buildConfig" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buildConfig" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buildConfig" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Alatheer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buildConfig" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Alatheer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="alatheer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\androidNewEnd\ALatheer\Fihaa" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="generated" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buildConfig" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Alatheer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="alatheer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="schoole" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Fihaa" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="schoole" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="schoole" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Fihaa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -650,14 +666,29 @@
       <option name="project" value="LOCAL" />
       <updated>1552824962461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="asmaa">
+      <created>1552902479264</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552902479264</updated>
+    </task>
+    <task id="LOCAL-00004" summary="asmaa">
+      <created>1552902709213</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552902709213</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22977346" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22977346" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -669,9 +700,9 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50647247" side_tool="true" visible="true" weight="0.24436536" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50728154" side_tool="true" visible="true" weight="0.24436536" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.4935275" visible="true" weight="0.24436536" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49271846" visible="true" weight="0.24436536" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.4975728" weight="0.32977462" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32928804" />
@@ -759,13 +790,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_news_dtails.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivitiesDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="88" selection-start-line="88" selection-end-line="117" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ChildrenFeesDetails.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -894,28 +918,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Preferense.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -931,10 +938,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        <state relative-caret-position="402">
+          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Alatheer/alatheer/schoole/Activities/ActivitiesDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
